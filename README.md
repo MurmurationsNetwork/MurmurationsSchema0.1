@@ -6,8 +6,8 @@ Each schema file contains a JSON object, which contains a property for each data
 
 These attributes can include:
 
-**type** — the type of data this field will contain, once stored (string, optional)  
-**title** — human-readable title for the field (string, optional)  
+**type** — the type of data this field will contain, once stored (string, required)  
+**title** — human-readable title for the field (string, required)  
 **inputAs** — specification for the HTML input for this field (string, optional)  
 **validateAs** — specification for data validation (string, optional)  
 **required** — whether this field is required (boolean, optional)  
