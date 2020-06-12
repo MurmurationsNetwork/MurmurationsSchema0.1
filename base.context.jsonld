@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "name": "https://schema.org/name",
+    "url": {
+      "@id": "https://schema.org/url",
+      "@type": "@id"
+    },
+    "tagline":  "https://schema.org/slogan",
+    "mission" : "http://purl.org/essglobal/vocab/mission",
+    "nodeTypes" : "http://purl.org/dc/terms/type",
+    "location":  "https://schema.org/location",
+    "lat":"https://schema.org/latitude",
+    "lon":"https://schema.org/longitude",
+    "logo": {
+      "@id": "https://schema.org/logo",
+      "@type": "@id"
+    },
+    "networks":  "http://purl.org/essglobal/vocab/Network",
+    "tags":  "https://schema.org/keywords",
+    "feed":  "https://schema.org/url",
+    "apiUrl":  "https://schema.org/url",
+  }
+}
