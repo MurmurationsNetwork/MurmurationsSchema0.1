@@ -18,6 +18,6 @@
     "networks":  "http://purl.org/essglobal/vocab/Network",
     "tags":  "https://schema.org/keywords",
     "feed":  "https://schema.org/url",
-    "apiUrl":  "https://schema.org/url",
+    "apiUrl":  "https://schema.org/url"
   }
 }
