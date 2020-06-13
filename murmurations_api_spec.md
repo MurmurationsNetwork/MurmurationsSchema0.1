@@ -1,5 +1,19 @@
 # Murmurations API
 
+This document describes how communications happen within the Murmurations network. Murmurations includes three types of entities:
+
+**Nodes** are the projects or organisations that compose the network, show up on maps or in directories, and provide content that appears on aggregator sites. 
+
+**Aggregators** are places where data about multiple nodes in the network are displayed. Data about nodes can be displayed on maps or in a directory or in other ways, and feeds of content from nodes can also be displayed. 
+
+**The Murmurations index** is a central list of all Murmurations nodes. This is where aggregators check for new nodes, and where nodes post to to let the network know they exist. The index has a single API URL, which is used for adding and retrieving node information, as well as other communications. The long term intention is that this index becomes obsolete as mechanisms are adopted to facilitate "crawling" the network of nodes, and for nodes to emit peer-to-peer notifications of updates and additions to the network. The index is non-exclusive. Although for adoption purposes a single index is useful, additional indices can be added in parallel. Proposals for federating and decentralising the index are encouraged!
+
+In addition to node data, *schemas* are also communicated among aggregators, nodes, and the index. Schemas define fields that nodes can fill out to share information about themselves. The *base schema* defines the minimal field set that is presented to nodes to fill. *Add-on schemas* provide additional fields that might be useful to particular aggregators or sub-networks. The index maintains a list of all add-on schemas, networks they are applicable to, and URLs where the schemas are stored. 
+
+The Murmurations index API URL is **https://murmurations.network/api/index**
+
+
+
 ## Node communications
 
 ### Index submission
@@ -34,7 +48,7 @@ key | value
 status | 'success', 'failure'
 message | Error message string
 
-Note: before the index returns a result, it makes a query to the node to confirm that the node's data is accessible and valid
+Note: before the index returns a result, it makes a query to the node to confirm that the node's data is accessible and valid.
 
 
 ### Retrieve networks list
