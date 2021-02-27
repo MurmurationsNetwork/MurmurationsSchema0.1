@@ -1,4 +1,4 @@
-**NB: Version 0.1 of Murmurations has been superseded by Version 1.0 - please see the [Murmurations Protocol](https://github.com/MurmurationsNetwork/MurmurationsProtocol) repo for the latest
+**NB: Version 0.1 of Murmurations has been superseded by Version 1.0 - please see the [Murmurations Protocol](https://github.com/MurmurationsNetwork/MurmurationsProtocol) repo for the latest information**
 
 # Murmurations Schemas
 
