@@ -1,3 +1,5 @@
+**NB: Version 0.1 of Murmurations has been superseded by Version 1.0 - please see the [Murmurations Protocol](https://github.com/MurmurationsNetwork/MurmurationsProtocol) repo for the latest
+
 # Murmurations Schemas
 
 The Murmurations network uses structured data to describe organisations and projects. Files in this repo define how that data is structured, and specifications for extending the base schema. 
